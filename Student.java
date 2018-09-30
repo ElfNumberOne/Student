@@ -1,17 +1,18 @@
 import java.lang.String;
 
 public class Student{
-	String fname;
-	String lname;
-	String age;
-	String major;
-	String gpa;
+	private String fname;
+	private String lname;
+	private String age;
+	private String major;
+	private String gpa;
 	public Student(){
 
 	}
 
-	public Student(String name, String major){
-		this.name = name;
+	public Student(String fname, String lname, String major){
+		this.fname = fname;
+		this.lname = lname;
 		this.major = major;
 	}
 
